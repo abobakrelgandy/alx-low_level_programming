@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlio.h>
+#include <stdio.h>
 
 /**
  * main - entry point
