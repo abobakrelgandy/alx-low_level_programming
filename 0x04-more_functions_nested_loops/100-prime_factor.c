@@ -17,7 +17,7 @@ double _sqrt(double x)
 
 	while (sqrt != tmp)
 	{
-		tmp = sqrt
+		tmp = sqrt;
 		sqrt = (x / tmp + tmp) / 2;
 	}
 	return (sqrt);
@@ -33,6 +33,7 @@ double _sqrt(double x)
 void largest_prime_factor(long int num)
 {
 	int prmNu, largest;
+
 	/* first divide with the smallest prime number (two) */
 	while (num % 2 == 0)
 		num = num / 2;
