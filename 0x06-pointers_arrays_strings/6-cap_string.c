@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * islower - determines whether ascil is lowercase
+ * islower - determines whether ascii is lowercase
  * @c: character
  * Return: 1 if true, 0 if false
 */
@@ -13,7 +13,7 @@ int islower(char c)
 }
 
 /**
- * isDelimiter - determines whether ascil is a delimiter
+ * isDelimiter - determines whether ascii is a delimiter
  * @c: character
  * Return: 1 if true, 0 if false
 */
