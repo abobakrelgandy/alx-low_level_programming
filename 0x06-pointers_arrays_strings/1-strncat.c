@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 	 * src does not need to be null terminated
 	 * if it containe n or more bytes
 	*/
-	for (i = 0, i < n && src[i] != '\0'; i++)
+	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[c + i] = src[i];
 	/*null terminate dest*/
 	dest[c + i] = '\0';
