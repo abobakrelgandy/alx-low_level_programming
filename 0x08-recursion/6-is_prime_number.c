@@ -15,7 +15,7 @@ return (check_prime(n, 2));
 
 /**
  * check_prime - check all number < n if they can divide it
- * @n; int
+ * @n: int
  * @othrn: int
  * Return: int
  */
