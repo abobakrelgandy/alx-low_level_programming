@@ -36,10 +36,10 @@ char **strtow(char *str)
 	char **w;
 
 	if (str == NULL || *str == '\0')
-		return (NULL)
+		return (NULL);
 	n = wrdcent(str);
 	if (n == 1)
-		return (NULL)
+		return (NULL);
 	w = (char **)malloc(n * sizeof(char *));
 	if (w == NULL)
 		return (NULL);
