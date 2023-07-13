@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	if (argv == 2)
+	if (argc == 2)
 	{
 	int i, leastcounts = 0, money = atoi(argv[1]);
 	int counts[] = {25, 10, 5, 2, 1};
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%d\n", leastcounts);
-	;
+	}
 	else
 	{
 		printf("Error\n")
