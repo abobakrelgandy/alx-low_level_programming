@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
- * main-print sum of two numbers.
+ * main-print sum of 2 numbers.
  * @argc:number of commandline arguments.
  * @argv:pointer to an array of commandline arguments.
  * Return:0-success, non-zero-fail.
