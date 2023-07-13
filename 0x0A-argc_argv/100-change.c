@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < 5; i++)
 	{
-		if (money >= cents[i])
+		if (money >= counts[i])
 		{
 			leastcounts += money / counts[i];
 			money = money % counts[i];
