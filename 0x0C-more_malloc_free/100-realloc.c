@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * *_realloc - allocates a momery block using malloc and free.
