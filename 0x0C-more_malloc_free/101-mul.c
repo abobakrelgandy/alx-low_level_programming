@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
  * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
  * Return: void
- */
+*/
 
 
 
@@ -16,7 +15,6 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-
 }
 
 /**
@@ -50,7 +48,7 @@ int _atoi(const char *s)
 /**
  * print_int - prints an integer.
  * @int
- * return: 0,
+ * return: 0
  */
 
 void print_int(unsigned long int n)
@@ -83,7 +81,7 @@ int main(int argc, char const *argv[])
 		_puts("error");
 		exit(98);
 	}
-	print_int(_toi(argv[1] * _toi(argv[2]));
+	print_int(_atoi(argv[1] * _toi(argv[2]));
 	_putchar('\n');
 
 	return (0);
