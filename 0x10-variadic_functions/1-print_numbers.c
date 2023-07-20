@@ -5,7 +5,7 @@
  * print_numbers - prints numbers with separator
  * @separator: the string separator
  * @n: the number of arguments
- * @...: the integers yo print
+ * @...: the integers to print
  *
  * Return: void
  */
@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (!n)
 	{
-		printf("\n")
+		printf("\n");
 		return;
 	}
 	va_start(ap, n);
