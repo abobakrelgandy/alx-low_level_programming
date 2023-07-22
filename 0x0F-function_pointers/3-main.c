@@ -2,7 +2,7 @@
 
 /**
  * main - check the code for The School student.
- * @argc: the number of args
+ * @argc: the number of argc
  * @argv: argument vector
  *
  * Return: Always 0.
