@@ -5,7 +5,7 @@ void _constructor(void) __attribute__ ((constructor));
 /**
  * constructor - excutes before main()
  *
- * Return: (void)
+ * Return: void
  */
 void _constructor(void)
 {
