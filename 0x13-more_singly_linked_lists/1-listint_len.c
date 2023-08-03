@@ -4,7 +4,7 @@
  * listint_len - prints a linked lists
  * @h: pointer to first node
  *
- * Return: Size of list
+ * Return: size of list
  */
 size_t listint_len(const lisint_t *h)
 {
