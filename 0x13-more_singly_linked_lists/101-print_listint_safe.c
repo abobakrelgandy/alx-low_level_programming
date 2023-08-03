@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * -r - reallocates momery for an array of pointwda
+ * -r - reallocates momery for an array of pointers
  * to the nodes in a linked list
  * @list: the old list to append
- * @size: size of the new list (always one more then the old list
+ * @size: size of the new list (always one more then the old list)
  * @new: new node to add to the list
  *
  * Return: pointer to the new list
