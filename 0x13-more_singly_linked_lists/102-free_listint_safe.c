@@ -8,7 +8,7 @@
  *
  * Return: address of node where loop starts/returns, NULL if no loop
  */
-listint_t *find_listint_loop_fl(listint_t *head)
+listint_t *find_listint_loop_fl(listint_t *head) 
 {
 	listint_t *ptr, *end;
 
@@ -55,7 +55,7 @@ size_t free_listint_safe(listint_t **h)
 				break;
 			}
 			len++;
-			next = next->next
+			next = next->next;
 			free((*h)->next);
 			loop = 0;
 		}
